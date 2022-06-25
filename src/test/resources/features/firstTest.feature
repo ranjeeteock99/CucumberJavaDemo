@@ -1,4 +1,4 @@
-Feature: Web Lpgin
+Feature: Web Login
   Scenario: user should be able to login with valod credentials
     Given The user is on login page
     When the user enters valid credentials
