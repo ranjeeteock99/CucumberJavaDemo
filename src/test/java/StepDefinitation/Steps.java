@@ -18,7 +18,7 @@ public class Steps {
 
     @Given("The user is on login page")
     public void the_user_is_on_login_page() throws InterruptedException {
-        System.setProperty("webdriver.chrome.driver", "Drivers/chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.get("https://www.browserstack.com/users/sign_in");
